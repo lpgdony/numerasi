@@ -1,0 +1,42 @@
+NUMERA — PETUALANGAN NUMERASI SMK (EDISI NIMO)
+
+CARA MENJALANKAN
+1. Unduh file ZIP.
+2. Ekstrak seluruh isi ZIP ke satu folder.
+3. Buka folder NUMERA_NIMO_SMK.
+4. Klik dua kali index.html. Gunakan Chrome, Edge, atau Firefox.
+
+KARAKTER
+NIMO adalah robot pemandu numerasi baru dengan warna putih, ungu, kuning, dan cyan. Ilustrasi karakter tersedia di assets/nimo.png.
+
+ISI GAME
+- 4 misi, masing-masing 3 soal (12 soal total).
+- Kasir Cermat: persentase, diskon, dan transaksi.
+- Produksi Tepat: perbandingan, skala, dan produktivitas.
+- Teknisi Energi: daya, energi, dan biaya listrik.
+- Data Detektif: rata-rata, jumlah data, dan peluang.
+- Pilihan ganda, umpan balik, dan pembahasan.
+- XP, status misi, nama pemain, dan penyimpanan progres pada browser.
+
+UNTUK SELURUH JURUSAN
+Konteks soal dibuat lintas bidang agar dapat digunakan pada berbagai konsentrasi keahlian SMK, termasuk bisnis, administrasi, teknologi, teknik, desain, kuliner, dan bidang layanan. Guru dapat mengembangkan konteks kasus lebih lanjut sesuai kompetensi keahlian sekolah.
+
+CATATAN
+Game ini merupakan media pembelajaran offline berbasis HTML. Progres tersimpan pada browser/perangkat yang digunakan, belum tersinkron ke akun atau dashboard guru.
+
+ANIMASI KHUSUS NIMO (VERSI TERBARU)
+- Menyapa: melambaikan badan dengan gerakan bergoyang saat pemain masuk ke peta.
+- Berjalan: gerakan langkah ringan saat memulai misi.
+- Menunjuk: gerakan condong saat memberi petunjuk soal.
+- Berpikir: gerakan kepala/badan miring di sela soal.
+- Senang: lompatan kecil ketika jawaban benar.
+- Kecewa: gerakan menunduk ringan ketika jawaban salah.
+- Merayakan: lompatan berulang ketika misi selesai dengan skor sempurna.
+- Terkejut: tersedia sebagai salah satu state animasi untuk pengembangan interaksi berikutnya.
+Animasi memakai CSS dan otomatis menghormati pengaturan perangkat untuk mengurangi gerakan (reduced motion).
+
+ANIMASI KARAKTER FRAME-BY-FRAME (PEMBARUAN)
+- NIMO menyapa memakai GIF gerakan tangan 9 frame.
+- NIMO berjalan memakai GIF siklus berjalan 9 frame.
+- Animasi situasional lain (menunjuk, berpikir, senang, kecewa, merayakan) memakai gerakan CSS sebagai efek pendamping.
+- GIF karakter disimpan di assets/nimo_wave.gif dan assets/nimo_walk.gif.
